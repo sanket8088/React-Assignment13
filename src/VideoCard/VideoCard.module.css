@@ -1,0 +1,27 @@
+.cardDiv{
+    width: 90%;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 6px;
+    margin: 8px 0px !important;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #ccc;
+    text-decoration: none;
+
+}
+.Thumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.Title {
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+}
+.active{
+    border: px solid yellow;
+}
