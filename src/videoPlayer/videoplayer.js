@@ -32,9 +32,9 @@ class videoplayer extends React.Component {
     }
     render() {
         return (
-            <div className={classes.leftPart}>
-                <iframe className={classes.video} src={`https://player.vimeo.com/video/${this.state.data.vimeoId}`} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
-                <div className={classes.metaTagsWrapper}>
+            <div className={classes.SectionLeft}>
+                <iframe className={classes.videoContainer} src={`https://player.vimeo.com/video/${this.state.data.vimeoId}`} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+                <div className={classes.detailsWrapper}>
                     <p className={classes.likes}>{this.state.data.views} Views</p>
                     <div className={classes.shareDiv}>
                         <i class="far fa-heart" style={this.state.data.isLiked === "true" ? { color: "yellow" } : null}></i>
